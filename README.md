@@ -1,10 +1,10 @@
 
 
 # Install directions
-- Clone  CapstoneProject repository
+- Clone  CapstoneProject repository and clone the testDBRepo repository
 - Open up Postico or similar PostgresSQL database client
 - Create a database named "testDB" ( The spring app will auto create the collections upon running the application)
-- Open sringDB then open  spring-boot-testdb back-end in Java and import as a maven project
+- Open testDBRepo and then open  spring-boot-testdb back-end in Java and import as a maven project
 - Launch the spring app in intellij
 - Open up the testapp react-app in your preferred IDE and npm i- to obtain all of the dependencies
 - navigate in terminal to the challenger react app folder and type npm start to launch the app on your local server
@@ -38,7 +38,7 @@ The project was mainly to serve as an introduction to spring and springboot.
 - being able to update my SQL database in real-time
 
 
-### Stretch Goals
+### Stretch Goal
  - Sign In (not implemented, userDB wasn't created in time)
 
 
